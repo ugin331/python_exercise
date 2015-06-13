@@ -20,6 +20,7 @@ RED = pygame.Color("FireBrick")
 
 #Start Main Function
 def main():
+#this is a random edit 
     #initializes all imported pygame modules
     pygame.init()
     #create the playing screen
@@ -77,11 +78,12 @@ def main():
                     paddleMove=0
                     faddleMove=0
         # this is to control the ball so it doesn't go off the screen
+        # another random edit
         if ball.y<=0 and ballDy<0:
             ballDy=ballDy*-1
         if ball.x<=0 and ballDx<0:
             ballDx=ballDx*-1
-        #ifthe ball is moving right and 
+        #if `the ball is moving right and 
         #off the board (x coordinate>screen width)
         if ball.x>=WINDOW_WIDTH - BALL_SIZE and ballDx>0:
             ballDx= - ballDx
