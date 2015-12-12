@@ -1,2 +1,4 @@
 # python_exercise
-Exercise Repo
+Exercise Repository
+
+
